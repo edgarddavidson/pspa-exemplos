@@ -1,0 +1,18 @@
+<hmtl ng-app='app'>
+    <body>
+      
+        <div ng-controller="FoodCtrl">
+            <ui ng:repeat="food in foods">
+                <li>
+                    <p><strong>Comida: </strong>{{food.name}}</p>
+                    <p><strong>Calorias: </strong>{{food.calories}}</p>
+                    <img src="{{food.img}}"/>
+                </li>
+            </ui>
+        </div>
+        
+        <script type="text/javascript" src="angular.js"></script>
+        <script type="application/javascript" src="app.js"></script>
+        <script type="text/javascript" src="foodCtrl.js"></script>
+    </body>
+</hmtl>

@@ -1,0 +1,19 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "depois"
+  },
+  "keywords": [
+    "não",
+    "precisa"
+  ],
+  "author": "Edgard Cardoso",
+  "license": "MIT"
+}

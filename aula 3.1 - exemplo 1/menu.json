@@ -1,0 +1,52 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "path": "/",
+      "controller": "MenuCtrl",
+      "templateUrl": "app/containers/views/menu.html",
+      "controllerUrl": "containers/MenuCtrl",
+      "title": "menu"
+    },
+    {
+      "id": 2,
+      "path": "/usecase1",
+      "controller": "Usecase1Ctrl",
+      "templateUrl": "app/usecase1/views/usecase1.html",
+      "controllerUrl": "usecase1/Usecase1Ctrl",
+      "title": "Use Case 1"
+    },
+    {
+      "id": 3,
+      "path": "/usecase2",
+      "controller": "Usecase2Ctrl",
+      "templateUrl": "app/usecase2/views/usecase2.html",
+      "controllerUrl": "usecase2/Usecase2Ctrl",
+      "title": "Use Case 2"
+    },
+    {
+      "id": 4,
+      "path": "/usecase3",
+      "controller": "Usecase3Ctrl",
+      "templateUrl": "app/usecase3/views/usecase3.html",
+      "controllerUrl": "usecase3/Usecase3Ctrl",
+      "title": "Use Case 3"
+    },
+    {
+      "id": 5,
+      "path": "/usecase4",
+      "controller": "Usecase4Ctrl",
+      "templateUrl": "app/usecase4/views/usecase4.html",
+      "controllerUrl": "usecase4/Usecase4Ctrl",
+      "title": "Use Case 4"
+    },
+    {
+      "id": 6,
+      "path": "/usecase5",
+      "controller": "Usecase5Ctrl",
+      "templateUrl": "app/usecase5/views/usecase5.html",
+      "controllerUrl": "usecase5/Usecase5Ctrl",
+      "title": "Use Case 5"
+    }
+  ]
+}

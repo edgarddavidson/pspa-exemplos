@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt" ng-app>
+<head>
+    <meta charset="iso-8859-1">
+    <title>Olá Mundo</title>
+</head>
+<body>
+    <h1 ng-controller="OlaMundoCtrl">{{mensagem}}</h1>
+    
+    <script src="angular.js"></script>
+    <script type="text/javascript">
+        function OlaMundoCtrl($scope){
+            $scope.mensagem = "Olá Mundo";
+        }
+    </script> 
+</body>
+</html>

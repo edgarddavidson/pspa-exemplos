@@ -1,0 +1,8 @@
+<div class="span3" ng-controller="MenuCtrl">
+    <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+            <li class="nav-header">Sidebar</li>
+            <li ng-repeat=" menuItem in menuList"><a ng-href="#{{menuItem.path}}">{{menuItem.title}}</li>            
+        </ul>
+    </div><!--/.well -->
+</div><!--/span-->
